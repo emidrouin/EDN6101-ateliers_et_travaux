@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <author/>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2021-02-13T13:39:10Z</date><name/></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>
+                <date>Mai 1763</date>
+            </head>
+            <reponse>Ordre du roi. #</reponse>
+            <question>Le S. Luthier demande si l’on éclairera et chauffera le
+                    château de Marly le voyage prochain comme dans les voyages ordinaires.</hi></question>
+            <reponse>Le pavillon du roy comme à l’ordinaire, mais l’on ne
+                    donnera de bois d’arrivée à personne. #</reponse>
+            <etampe>Empire français. Direction générale des archives.</etampe>
+            <question>Si le concierge, les garçons du garde-meuble, les s(ieur)s
+                    Boucheman et Lemoine, les garçons du château, l’orloger, le garçon des chiens et
+                    les porteurs seront chauffés et éclairés.</question>
+            <reponse>Le voyage étant comme celui de Versailles, l’on n’est
+                    obligé à rien, mais on peut leur donner quelque secours en bois et lumières ;
+                    mrs Bouceman et Lemoine, oui sûrement. #</reponse>
+            <question>Si on éclairera les salles des gardes de Votre Majesté, des gardes de la Porte et des Cent Suisses. </question>
+            <reponse>Oui, sans doute. #</reponse>
+            <question>Si les femmes de chambre de mesdames qui logent hors du château seront chauffées et éclairées. </question>
+            <reponse>Oui, en observant la règle la plus exacte. #</reponse>
+            <question>Si on donnera une bougie blanche par jour au supérieur des
+                    cordeliers de Noisy.</question>
+            <reponse><biffe>Oui</biffe> Non, une demie. #</reponse>
+            <question>Et si on donnera une bougie par jour au vicaire de la
+                    paroisse qui dessert la chapelle du commun.</question>
+            <reponse>Non, mais la valeur en argent. #</reponse>
+            <reponse>
+                <commentaire>Le roy chauffe et éclaire les conseillers d’État à leur pied-à-terre qui est au 5 au commun. #</commentaire>
+            </reponse>
+            <signature>Noailles.</signature>
+        </body>
+    </text>
+</TEI>

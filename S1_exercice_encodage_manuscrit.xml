@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_bare.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>À la découverte d'oXygen</title>
+            <author>Emilie Drouin</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Brouillon inédit</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Document nativement numérique créé dans le cadre d'une formation TEI</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div n="1">
+            <head>Exercice d'encodage en TEI</head>
+            <p>Ceci est un exercice d'encodage d'un manuscrit en TEI réalisé à l'aide de l'outil oXygen. </p>
+            <p>J'apprends, de cette façon, à utiliser oXygen afin de créer un document nativement numérique en TEI!</p>
+         </div>
+         <div n="2">
+            <head>Encore plus de pratique!</head>
+            <p>Ici, je me pratique encore, en créant un nouveau chapitre dans cet exercice d'encodage.Je pourrais même créer une liste...</p>
+            <list>
+               <item>... pour parler de tout et de rien</item>
+               <item>... pour énumérer des raisons d'apprécier la TEI</item>
+               <item>... pour m'exercer encore!</item>
+            </list>
+         </div>
+         <div n="2">
+            <head>Un nouveau chapitre</head>
+            <p>Ici, je crée un dernier chapitre en utilisant l'édition WYSIWYG, qui va somme toute
+               assez bien même s'il me fait beaucoup craindre de perdre le contrôle sur mon
+               document.</p>
+         </div>
+      </body>
+  </text>
+</TEI>
