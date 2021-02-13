@@ -1,1 +1,1 @@
-# EDN6101-ateliers_et_travax
+# EDN6101-ateliers_et_travaux
