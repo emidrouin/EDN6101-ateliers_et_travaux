@@ -1,0 +1,48 @@
+# Exercice d'analyse d'un projet TEI
+Projet choisi: Roman du Mont Saint-Michel (Univ. de Caen Basse-Normandie)
+
+## quelles sont les sources des documents (facsimilés) ?
+- "deux manuscrits conservés à Londres à la British Library (BL)", dont on croit qu'ils ont été acquis "avant la Révolution"
+	- Manuscrit A:
+		- document: "BL Additional 10289"
+		- origine: produit au Mont Saint-Michel, datant de 1280
+		- état: incomplet (pages arrachées)
+		- qualité: "texte soigné"
+		- fidélité: oui
+	- Manuscrit B
+		- document: "BL Additional 26876"
+		- origine: datant de 1340, anonyme (incertitude sur son lieu de production)
+		- état: texte complet
+		- qualité: plus faible (support "médiocre", "travail peu soigné" comportant des "erreurs et lacunes")
+		- fidélité: "francisation et modernisation du texte d'origine"
+
+## quelles sont les fonctionnalités proposées permises par l'encodage en XML TEI ?
+- affichage:
+	- mettre côte-à-côte la transcription d'un texte ancien et son adaptation (*traduction*) en français moderne
+	- affichage "correspondant": chapitre par chapitre, puis section (groupe de vers) par section (disposition du texte)
+- transcription:
+	- numérotation des vers
+	- insérer dans le texte des liens vers les facsimilés sources (images .PNG - n'affichent pas?)
+	- annotations: afin d'indiquer les divergences dans les versions sources
+- transposition/traduction:
+	- annotations: commentaires sur la traduction
+- glossaire:
+	- termes d'intérêt, au plan linguistique
+	- indiquer une référence (avec un lien) vers les occurences des mots (numéro des vers), selon la définition qui en est donnée
+- annotations: s'affichent en survolant l'appel de note en plus d'être regroupées à la fin du texte (pied de page), pour vers lequel les liens des appels de note mènent
+
+## pouvez-vous accéder aux versions XML des éditions ?
+- non
+
+## comment est utilisé le schéma TEI ?
+- structure:
+	- organisation en livres (I, II, III) - = structure d'origine
+	- sous-division en chapitres
+		- ~ structure d'origine (typographie: majuscule ornementale)
+		- titres: ceux de l'éditrice moderne
+	- encodage vers par vers (*verse*) de la transcription, à partir d'un choix éditorial quant aux versions
+		- mention, en note, des différences de versions (par groupe de 2 vers à la fois)
+	- encodage en paragraphes de la transposition (traduction) d'une section versifiée
+		- explicitation, en note, des commentaires de traduction (commentaires éditoriaux)
+	- mentions
+
