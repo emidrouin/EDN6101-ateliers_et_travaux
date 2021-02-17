@@ -25,11 +25,25 @@
                     </msIdentifier>
                     <physDesc>
                         <handDesc hands="2">
-                            <handNote xml:id="Luthier" scope="major" script="copperplate" ana="question">
-                                <p>Les questions, disposées dans la colonne de droite, sont tracées dans une calligraphie plus régulière.</p>
+                            <handNote xml:id="Luthier" scope="major" script="copperplate"
+                                ana="question">
+                                <p>Les questions du <persName><roleName type="honorific"
+                                            >Sieur</roleName>
+                                        <surname>Luthier</surname></persName>, écrites en son nom
+                                    par une personne inconnue, sont tracées dans une calligraphie
+                                    plus régulière.</p>
                             </handNote>
-                            <handNote xml:id="reponse" scope="major" script="cursive" ana="reponse">
-                                <p>Les réponses, disposées dans la colonne de gauche vis-à-vis des questions correspondantes, sont tracées dans une calligraphie plus libre.</p>
+                            <handNote xml:id="Noailles" scope="major" script="cursive" ana="reponse">
+                                <p>Les réponses données au nom du roi par
+                                            <persName><surname>Noailles</surname></persName>,
+                                    disposées dans la marge de gauche vis-à-vis des questions
+                                    correspondantes, sont tracées dans une calligraphie plus libre.
+                                    Chacun de ces paragraphes est paraphé.</p>
+                            </handNote>
+                            <handNote xml:id="annotation" scope="minor">
+                                <p>Le document contient des annotations et ajouts qui ne proviennent
+                                    ni de la main ayant écrit les questions, ni de la main de
+                                            <persName><surname>Noailles</surname></persName>.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -47,88 +61,113 @@
 
     <text>
         <front>
-            <div type="etampe">
+            <div type="etampe" ana="#annotation">
                 <p><hi rend="uppercase">Empire français<lb/>Direction générale des
                     archives.</hi></p>
             </div>
         </front>
         <body>
-            <head>
-                <date when="1763-05">Mai 1763</date>
-            </head>
-            <div type="reponse">
-                <p>Ordre du roi. <g>#</g></p>
-            </div>
-            <div type="question">
-                <p>Le <abbr>S.</abbr> Luthier demande si l’on éclairera <lb/>et chauffera le château
-                    de Marly le <lb/>voyage prochain comme dans les voyages <lb/>ordinaires.</p>
-            </div>
-            <div type="question">
-                <p>Le pavillon du <choice>
-                        <abbr>roy</abbr>
-                        <expan>roi</expan>
-                    </choice> comme <lb/>à l’ordinaire, mais l’on ne <lb/>donnera de bois d’arrivée
-                    à <lb/>personne. <g>#</g></p>
-            </div>
 
-            <div type="question">
-                <p>Si le concierge, les garçons du <choice>
-                        <orig>gardemeuble</orig>
-                        <reg>garde-meuble</reg>
-                    </choice>, <lb/>les <choice>
-                        <abbr>S.</abbr>
-                        <expan>sieurs</expan>
-                    </choice><persName>Boucheman</persName> et <persName>Lemoine</persName>, les
-                    <lb/>garçons du château, l’<choice>
-                        <orig>orloger</orig>
-                        <reg>horloger</reg>
-                    </choice>, le garçon <lb/>des chiens et les porteurs seront chauffés <lb/>et
-                    éclairés.</p>
+            <div>
+                <head ana="#annotation">
+                    <date when="1763-05">Mai 1763</date>
+                </head>
+                <head ana="#Noailles">
+                    Ordre du roi. <g>#</g>
+                </head>
             </div>
-            <div type="reponse">
-                <p>Le voyage étant comme <lb/>celui de <placeName>Versailles</placeName>, l’on n’est
-                    <lb/>obligé à rien, mais on peut <lb/>leur donner quelque secours en <lb/>bois
-                    et lumières ; <choice>
-                        <abbr>mrs</abbr>
-                        <expan>messieurs</expan>
-                    </choice>
-                    <persName>Bouceman</persName>
-                    <lb/>et <persName>Lemoine</persName>, oui sûrement. <g>#</g></p>
+            <div>
+                <div ana="#Luthier">
+                    <p>Le <persName><roleName><choice>
+                                    <abbr>S.</abbr>
+                                    <expan>Sieur</expan>
+                                </choice></roleName>
+                            <surname>Luthier</surname></persName> demande si l’on éclairera <lb/>et
+                        chauffera le <placeName>château de
+                            <settlement>Marly</settlement></placeName> le <lb/>voyage prochain comme
+                        dans les voyages <lb/>ordinaires.</p>
+                </div>
+                <div ana="#Noailles">
+                    <p>Le <placeName>pavillon du <choice>
+                                <abbr>roy</abbr>
+                                <expan>roi</expan>
+                            </choice></placeName> comme <lb/>à l’ordinaire, mais l’on ne
+                        <lb/>donnera de bois d’arrivée à <lb/>personne. <g>#</g></p>
+                </div>
             </div>
-            <div type="question">
-                <p>Si on éclairera les salles des gardes <lb/>de <emph>Votre Majesté</emph>, des
-                    gardes de <lb/>la Porte et des Cent Suisses.</p>
+            <div>
+                <div ana="#Luthier">
+                    <p>Si le concierge, les garçons du <choice>
+                            <orig>gardemeuble</orig>
+                            <reg>garde-meuble</reg>
+                        </choice>, <lb/>les <roleName><choice>
+                            <abbr>S.</abbr>
+                            <expan>sieurs</expan>
+                        </choice></roleName><persName>Boucheman</persName> et <persName>Lemoine</persName>, les
+                        <lb/>garçons du château l’<choice>
+                            <orig>orloger</orig>
+                            <reg>horloger</reg>
+                        </choice>, le garçon <lb/>des chiens et les porteurs seront chauffés <lb/>et
+                        éclairés.</p>
+                </div>
+                <div ana="#Noailles">
+                    <p>Le voyage étant comme <lb/>celui de <placeName>Versailles</placeName>, l’on
+                        n’est <lb/>obligé à rien, mais on peut <lb/>leur donner quelque secours en
+                        <lb/>bois et lumières ; <roleName><choice>
+                                    <abbr>mrs</abbr>
+                                    <expan>messieurs</expan>
+                                </choice>
+                            </roleName><persName>Bouceman</persName><lb/>et
+                                    <persName>Lemoine</persName>
+                        , oui sûrement. <g>#</g></p>
+                </div>
             </div>
-            <div type="reponse">
-                <p>Oui, sans doute. <g>#</g></p>
+            <div>
+                <div ana="#Luthier">
+                    <p>Si on éclairera les salles des gardes <lb/>de <persName><roleName>
+                                <emph>Votre Majesté</emph>
+                            </roleName>
+                        </persName>, des gardes de <lb/>la Porte et des Cent Suisses.</p>
+                </div>
+                <div ana="#Noailles">
+                    <p>Oui, sans doute. <g>#</g></p>
+                </div>
             </div>
-            <div type="question">
-                <p>Si les femmes de chambre de mesdames <lb/>qui logent hors du château seront
-                    chauffées <lb/>et éclairées.</p>
+            <div>
+                <div ana="#Luthier">
+                    <p>Si les femmes de chambre de mesdames <lb/>qui logent hors du château seront
+                        chauffées <lb/>et éclairées.</p>
+                </div>
+                <div ana="#Noailles">
+                    <p>Oui, en observant la règle <lb/>la plus exacte. <g>#</g></p>
+                </div>
             </div>
-            <div type="reponse">
-                <p>Oui, en observant la règle <lb/>la plus exacte. <g>#</g></p>
+            <div>
+                <div ana="#Luthier">
+                    <p>Si on donnera une bougie blanche par <lb/>jour au supérieur des cordeliers de
+                            <lb/><placeName>Noisy</placeName>.</p>
+                </div>
+                <div ana="#Noailles">
+                    <p><del>Oui</del> Non, une demie. <g>#</g></p>
+                </div>
             </div>
-            <div type="question">
-                <p>Si on donnera une bougie blanche par <lb/>jour au supérieur des cordeliers de
-                        <lb/><placeName>Noisy</placeName>.</p>
+            <div>
+                <div ana="#Luthier">
+                    <p>Et si on donnera une bougie par <lb/>jour au vicaire de la paroisse qui
+                        dessert <lb/>la chapelle du commun.</p>
+                </div>
+                <div ana="#Noailles">
+                    <p>Non, mais la <lb/>valeur en argent. <g>#</g></p>
+                </div>
             </div>
-            <div type="reponse">
-                <p><del>Oui</del> Non, une demie. <g>#</g></p>
-            </div>
-            <div type="question">
-                <p>Et si on donnera une bougie par <lb/>jour au vicaire de la paroisse qui dessert
-                    <lb/>la chapelle du commun.</p>
-            </div>
-            <div type="reponse">
-                <p>Non, mais la <lb/>valeur en argent. <g>#</g></p>
-            </div>
-            <div type="reponse">
-                <p>Le <choice>
-                        <orig>roy</orig>
-                        <reg>roi</reg>
-                    </choice> chauffe et éclaire les conseillers <lb/>d’État à leur pied-à-terre qui
-                    est au 5 au commun. <g>#</g></p>
+            <div>
+                <div ana="#Noailles">
+                    <p>Le <choice>
+                            <orig>roy</orig>
+                            <reg>roi</reg>
+                        </choice> chauffe et éclaire les conseillers <lb/>d’État à leur pied-à-terre
+                        qui est au 5 au commun. <g>#</g></p>
+                </div>
                 <signed><emph>Noailles</emph></signed>
             </div>
         </body>
