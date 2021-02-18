@@ -51,11 +51,14 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <editorialDecl>
+                <interpretation>
+                    <p>Le propos attribué à <persName ana="#Luthier">Luthier</persName> consiste en
+                        des questions posées à l'attention du <persName>Roi</persName>, tandis que
+                        le texte de <persName ana="#Noailles">Noailles</persName> fournit des
+                        réponses à ces questions.</p>
+                </interpretation>
+            </editorialDecl>
         </encodingDesc>
     </teiHeader>
 
@@ -72,9 +75,9 @@
                 <head ana="#annotation">
                     <date when="1763-05">Mai 1763</date>
                 </head>
-                <head ana="#Noailles">
-                    Ordre du roi. <g>#</g>
-                </head>
+                <div ana="#Noailles">
+                    <p><add>Ordre du roi. <g>#</g></add></p>
+                </div>
             </div>
             <div>
                 <div ana="#Luthier">
@@ -88,11 +91,11 @@
                         dans les voyages <lb/>ordinaires.</p>
                 </div>
                 <div ana="#Noailles">
-                    <p>Le <placeName>pavillon du <choice>
-                                <abbr>roy</abbr>
-                                <expan>roi</expan>
-                            </choice></placeName> comme <lb/>à l’ordinaire, mais l’on ne
-                        <lb/>donnera de bois d’arrivée à <lb/>personne. <g>#</g></p>
+                    <p><add>Le <placeName>pavillon du <choice>
+                                    <abbr>roy</abbr>
+                                    <expan>roi</expan>
+                                </choice></placeName> comme <lb/>à l’ordinaire, mais l’on ne
+                            <lb/>donnera de bois d’arrivée à <lb/>personne. <g>#</g></add></p>
                 </div>
             </div>
             <div>
@@ -101,25 +104,24 @@
                             <orig>gardemeuble</orig>
                             <reg>garde-meuble</reg>
                         </choice>, <lb/>les <roleName><choice>
-                            <abbr>S.</abbr>
-                            <expan>sieurs</expan>
-                        </choice></roleName><persName>Boucheman</persName> et <persName>Lemoine</persName>, les
-                        <lb/>garçons du château l’<choice>
+                                <abbr>S.</abbr>
+                                <expan>sieurs</expan>
+                            </choice></roleName><persName>Boucheman</persName> et
+                            <persName>Lemoine</persName>, les <lb/>garçons du château l’<choice>
                             <orig>orloger</orig>
                             <reg>horloger</reg>
                         </choice>, le garçon <lb/>des chiens et les porteurs seront chauffés <lb/>et
                         éclairés.</p>
                 </div>
                 <div ana="#Noailles">
-                    <p>Le voyage étant comme <lb/>celui de <placeName>Versailles</placeName>, l’on
-                        n’est <lb/>obligé à rien, mais on peut <lb/>leur donner quelque secours en
-                        <lb/>bois et lumières ; <roleName><choice>
+                    <p><add>Le voyage étant comme <lb/>celui de <placeName>Versailles</placeName>,
+                            l’on n’est <lb/>obligé à rien, mais on peut <lb/>leur donner quelque
+                            secours en <lb/>bois et lumières ; <roleName><choice>
                                     <abbr>mrs</abbr>
                                     <expan>messieurs</expan>
                                 </choice>
                             </roleName><persName>Bouceman</persName><lb/>et
-                                    <persName>Lemoine</persName>
-                        , oui sûrement. <g>#</g></p>
+                                <persName>Lemoine</persName> , oui sûrement. <g>#</g></add></p>
                 </div>
             </div>
             <div>
@@ -130,7 +132,7 @@
                         </persName>, des gardes de <lb/>la Porte et des Cent Suisses.</p>
                 </div>
                 <div ana="#Noailles">
-                    <p>Oui, sans doute. <g>#</g></p>
+                    <p><add>Oui, sans doute. <g>#</g></add></p>
                 </div>
             </div>
             <div>
@@ -139,7 +141,7 @@
                         chauffées <lb/>et éclairées.</p>
                 </div>
                 <div ana="#Noailles">
-                    <p>Oui, en observant la règle <lb/>la plus exacte. <g>#</g></p>
+                    <p><add>Oui, en observant la règle <lb/>la plus exacte. <g>#</g></add></p>
                 </div>
             </div>
             <div>
@@ -148,7 +150,7 @@
                             <lb/><placeName>Noisy</placeName>.</p>
                 </div>
                 <div ana="#Noailles">
-                    <p><del>Oui</del> Non, une demie. <g>#</g></p>
+                    <p><add><del>Oui</del> Non, une demie. <g>#</g></add></p>
                 </div>
             </div>
             <div>
@@ -157,18 +159,18 @@
                         dessert <lb/>la chapelle du commun.</p>
                 </div>
                 <div ana="#Noailles">
-                    <p>Non, mais la <lb/>valeur en argent. <g>#</g></p>
+                    <p><add>Non, mais la <lb/>valeur en argent. <g>#</g></add></p>
                 </div>
             </div>
             <div>
                 <div ana="#Noailles">
-                    <p>Le <choice>
-                            <orig>roy</orig>
-                            <reg>roi</reg>
-                        </choice> chauffe et éclaire les conseillers <lb/>d’État à leur pied-à-terre
-                        qui est au 5 au commun. <g>#</g></p>
+                    <p><add>Le <choice>
+                                <orig>roy</orig>
+                                <reg>roi</reg>
+                            </choice> chauffe et éclaire les conseillers <lb/>d’État à leur
+                            pied-à-terre qui est au 5 au commun. <g>#</g></add></p>
+                    <signed><emph>Noailles</emph></signed>
                 </div>
-                <signed><emph>Noailles</emph></signed>
             </div>
         </body>
     </text>
