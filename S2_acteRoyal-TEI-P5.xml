@@ -5,7 +5,12 @@
         <fileDesc>
             <titleStmt>
                 <title>Acte Royal</title>
-                <editor>Emilie Drouin</editor>
+                <editor>
+                    <persName ref="#ED">
+                        <forename>Emilie</forename>
+                        <surname>Drouin</surname>
+                    </persName>
+                </editor>
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -25,25 +30,21 @@
                     </msIdentifier>
                     <physDesc>
                         <handDesc hands="2">
-                            <handNote xml:id="Luthier" scope="major" script="copperplate"
-                                ana="question">
-                                <p>Les questions du <persName><roleName type="honorific"
+                            <handNote xml:id="Luthier" scope="major">
+                                <p>Une personne inconnue, possiblement un secrétaire, a écrit des
+                                    questions posées au nom du <persName><roleName type="honorific"
                                             >Sieur</roleName>
-                                        <surname>Luthier</surname></persName>, écrites en son nom
-                                    par une personne inconnue, sont tracées dans une calligraphie
-                                    plus régulière.</p>
+                                        <surname>Luthier</surname></persName>.</p>
                             </handNote>
-                            <handNote xml:id="Noailles" scope="major" script="cursive" ana="reponse">
-                                <p>Les réponses données au nom du roi par
-                                            <persName><surname>Noailles</surname></persName>,
-                                    disposées dans la marge de gauche vis-à-vis des questions
-                                    correspondantes, sont tracées dans une calligraphie plus libre.
-                                    Chacun de ces paragraphes est paraphé.</p>
+                            <handNote xml:id="Noailles" scope="major" ana="reponse">
+                                <p>En marge de gauche et vis-à-vis des questions correspondantes,
+                                            <persName><surname>Noailles</surname></persName> a
+                                    indiqué les réponses du Roi, paraphant chaque paragraphe à la
+                                    fin.</p>
                             </handNote>
                             <handNote xml:id="annotation" scope="minor">
                                 <p>Le document contient des annotations et ajouts qui ne proviennent
-                                    ni de la main ayant écrit les questions, ni de la main de
-                                            <persName><surname>Noailles</surname></persName>.</p>
+                                    pas des deux mains précédentes.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -61,7 +62,6 @@
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
-
     <text>
         <front>
             <div type="etampe" ana="#annotation">
@@ -72,12 +72,12 @@
         <body>
 
             <div>
-                <head ana="#annotation">
-                    <date when="1763-05">Mai 1763</date>
-                </head>
-                <div ana="#Noailles">
-                    <p><add>Ordre du roi. <g>#</g></add></p>
-                </div>
+                <p>
+                    <add hand="#annotation">
+                        <date when="1763-05">Mai 1763</date>
+                    </add>
+                    <add hand="#Noailles"> Ordre du roi. <g>#</g>
+                    </add></p>
             </div>
             <div>
                 <div ana="#Luthier">
@@ -90,12 +90,14 @@
                             <settlement>Marly</settlement></placeName> le <lb/>voyage prochain comme
                         dans les voyages <lb/>ordinaires.</p>
                 </div>
-                <div ana="#Noailles">
-                    <p><add>Le <placeName>pavillon du <choice>
+                <div>
+                    <p>
+                        <add hand="#Noailles"> Le <placeName>pavillon du <choice>
                                     <abbr>roy</abbr>
                                     <expan>roi</expan>
                                 </choice></placeName> comme <lb/>à l’ordinaire, mais l’on ne
-                            <lb/>donnera de bois d’arrivée à <lb/>personne. <g>#</g></add></p>
+                            <lb/>donnera de bois d’arrivée à <lb/>personne. <g>#</g>
+                        </add></p>
                 </div>
             </div>
             <div>
@@ -113,10 +115,11 @@
                         </choice>, le garçon <lb/>des chiens et les porteurs seront chauffés <lb/>et
                         éclairés.</p>
                 </div>
-                <div ana="#Noailles">
-                    <p><add>Le voyage étant comme <lb/>celui de <placeName>Versailles</placeName>,
-                            l’on n’est <lb/>obligé à rien, mais on peut <lb/>leur donner quelque
-                            secours en <lb/>bois et lumières ; <roleName><choice>
+                <div>
+                    <p>
+                        <add hand="#Noailles"> Le voyage étant comme <lb/>celui de
+                                <placeName>Versailles</placeName>, l’on n’est <lb/>obligé à rien,
+                            mais on peut <lb/>leur donner quelque secours en <lb/>bois et lumières ; <roleName><choice>
                                     <abbr>mrs</abbr>
                                     <expan>messieurs</expan>
                                 </choice>
@@ -126,13 +129,13 @@
             </div>
             <div>
                 <div ana="#Luthier">
-                    <p>Si on éclairera les salles des gardes <lb/>de <persName><roleName>
-                                <emph>Votre Majesté</emph>
-                            </roleName>
-                        </persName>, des gardes de <lb/>la Porte et des Cent Suisses.</p>
+                    <p>Si on éclairera les salles des gardes <lb/>de <persName><roleName><emph>Votre
+                                    Majesté</emph></roleName></persName>, des gardes de <lb/>la
+                        Porte et des Cent Suisses.</p>
                 </div>
-                <div ana="#Noailles">
-                    <p><add>Oui, sans doute. <g>#</g></add></p>
+                <div>
+                    <p>
+                        <add hand="#Noailles"> Oui, sans doute. <g>#</g></add></p>
                 </div>
             </div>
             <div>
@@ -140,8 +143,9 @@
                     <p>Si les femmes de chambre de mesdames <lb/>qui logent hors du château seront
                         chauffées <lb/>et éclairées.</p>
                 </div>
-                <div ana="#Noailles">
-                    <p><add>Oui, en observant la règle <lb/>la plus exacte. <g>#</g></add></p>
+                <div>
+                    <p><add hand="#Noailles"> Oui, en observant la règle <lb/>la plus exacte.
+                                <g>#</g></add></p>
                 </div>
             </div>
             <div>
@@ -149,8 +153,10 @@
                     <p>Si on donnera une bougie blanche par <lb/>jour au supérieur des cordeliers de
                             <lb/><placeName>Noisy</placeName>.</p>
                 </div>
-                <div ana="#Noailles">
-                    <p><add><del>Oui</del> Non, une demie. <g>#</g></add></p>
+                <div>
+                    <p><add hand="#Noailles">
+                            <del>Oui</del> Non, une demie. <g>#</g></add></p>
+
                 </div>
             </div>
             <div>
@@ -158,20 +164,58 @@
                     <p>Et si on donnera une bougie par <lb/>jour au vicaire de la paroisse qui
                         dessert <lb/>la chapelle du commun.</p>
                 </div>
-                <div ana="#Noailles">
-                    <p><add>Non, mais la <lb/>valeur en argent. <g>#</g></add></p>
+                <div>
+                    <p><add hand="#Noailles"> Non, mais la <lb/>valeur en argent. <g>#</g></add></p>
                 </div>
             </div>
             <div>
-                <div ana="#Noailles">
-                    <p><add>Le <choice>
-                                <orig>roy</orig>
-                                <reg>roi</reg>
-                            </choice> chauffe et éclaire les conseillers <lb/>d’État à leur
-                            pied-à-terre qui est au 5 au commun. <g>#</g></add></p>
-                    <signed><emph>Noailles</emph></signed>
-                </div>
+                <p><add hand="#Noailles"> Le <choice>
+                            <orig>roy</orig>
+                            <reg>roi</reg>
+                        </choice> chauffe et éclaire les conseillers <lb/>d’État à leur pied-à-terre
+                        qui est au 5 au commun. <g>#</g></add></p>
+                <signed><emph>Noailles</emph></signed>
             </div>
+
         </body>
+        <back>
+            <div>
+                <listPerson>
+                    <person xml:id="philippedenoailles">
+                        <persName>
+                            <forename>Philippe</forename>
+                            <nameLink>de</nameLink>
+                            <surname>Noailles</surname>
+                            <roleName>compte de Noailles</roleName>
+                        </persName>
+                        <sex>masculin</sex>
+                        <birth>
+                            <date when="1715">1715</date>
+                        </birth>
+                        <death>
+                            <date when="1794">1794</date>
+                        </death>
+                        <note>Voir, en références, la <ref
+                                target="http://catalogue.bnf.fr/ark:/12148/cb14955974j/PUBLIC"
+                                >notice d'autorité BnF</ref> ainsi que la <ref
+                                target="http://fr.wikipedia.org/wiki/Philippe_de_Noailles">page
+                                Wikipédia</ref>.</note>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="chateaudemarly">
+                        <placeName>château de Marly</placeName>
+                        <location>
+                            <country>France</country>
+                            <region>Yvelines</region>
+                            <settlement>commune de Marly-le-Roy</settlement>
+                            <geo>48,85 2,023</geo>
+                        </location>
+                        <note>Voir, en référence, la <ref target="http://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Marly">page Wikipédia</ref> ou <ref target="http://www.cg78.fr/archives/guide-et-inventaires/serieA/db/topo/frame.htm">l'un</ref> ou <ref target="http://www.cg78.fr/archives/guide-et-inventaires/img/seriea/hd/sa00215.jpg">l'autre</ref> des deux liens brisés mis à votre disposition.
+                        </note>
+                    </place>
+                </listPlace>
+            </div>
+        </back>
     </text>
 </TEI>
