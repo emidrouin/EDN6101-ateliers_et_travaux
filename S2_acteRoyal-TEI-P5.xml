@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="./S2_exercice_utilisation_schema/schemas/schemaMs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="teiTranscr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -59,6 +59,7 @@
                         le texte de <persName ana="#Noailles">Noailles</persName> fournit des
                         réponses à ces questions.</p>
                 </interpretation>
+
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
@@ -70,7 +71,6 @@
             </div>
         </front>
         <body>
-
             <div>
                 <p>
                     <add hand="#annotation">
@@ -174,7 +174,9 @@
                             <reg>roi</reg>
                         </choice> chauffe et éclaire les conseillers <lb/>d’État à leur pied-à-terre
                         qui est au 5 au commun. <g>#</g></add></p>
-                <signed><emph>Noailles</emph></signed>
+                <signed>
+                    <emph>Noailles</emph>
+                </signed>
             </div>
 
         </body>
@@ -211,7 +213,13 @@
                             <settlement>commune de Marly-le-Roy</settlement>
                             <geo>48,85 2,023</geo>
                         </location>
-                        <note>Voir, en référence, la <ref target="http://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Marly">page Wikipédia</ref> ou <ref target="http://www.cg78.fr/archives/guide-et-inventaires/serieA/db/topo/frame.htm">l'un</ref> ou <ref target="http://www.cg78.fr/archives/guide-et-inventaires/img/seriea/hd/sa00215.jpg">l'autre</ref> des deux liens brisés mis à votre disposition.
+                        <note>Voir, en référence, la <ref
+                                target="http://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Marly">page
+                                Wikipédia</ref> ou <ref
+                                target="http://www.cg78.fr/archives/guide-et-inventaires/serieA/db/topo/frame.htm"
+                                >l'un</ref> ou <ref
+                                target="http://www.cg78.fr/archives/guide-et-inventaires/img/seriea/hd/sa00215.jpg"
+                                >l'autre</ref> des deux liens brisés mis à votre disposition.
                         </note>
                     </place>
                 </listPlace>
